@@ -8,8 +8,8 @@ from pubg_indicator.req import ReqManager, URLPat
 
 logger = logging.getLogger(__file__)
 
-PROJ_DIR = '/Users/wangbangxu/PycharmProjects/a/pubg-indicator'
-api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMzlmZTEzMC1mNGQ5LTAxM2MtMjQwYi0xNmY5NWU3MTI5YTYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNzE1NzcxNDE5LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InNoaW5lNHUifQ.-ByvZuZb2zgeE2cgsgyawE7JbEosgD2_TcPZadiQjYs'
+PROJ_DIR = '/Users/*/PycharmProjects/a/pubg-indicator'
+api_key = '***'
 
 cache_path = f'{PROJ_DIR}/cache'
 server = 'https://api.pubg.com/'
