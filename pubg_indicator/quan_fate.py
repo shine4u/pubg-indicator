@@ -4,8 +4,8 @@ from datetime import datetime
 from collections import Counter
 from typing import Dict, Tuple
 from collections import defaultdict
-from loguru import logger
 from pubg_indicator.deps import *
+from loguru import logger
 
 
 team_data_all = defaultdict(list)

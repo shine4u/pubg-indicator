@@ -1,14 +1,13 @@
 import json
-import logging
 import os.path
 from itertools import filterfalse
 from dataclasses import dataclass, field
 from typing import List
 from pubg_indicator.req import ReqManager, URLPat
+from loguru import logger
 
-logger = logging.getLogger(__file__)
 
-PROJ_DIR = '/Users/*/PycharmProjects/a/pubg-indicator'
+PROJ_DIR = '/Users/wangbangxu/PycharmProjects/a/pubg-indicator'
 api_key = '***'
 
 cache_path = f'{PROJ_DIR}/cache'
@@ -28,8 +27,6 @@ req_mgr = ReqManager(
         'Authorization': f'Bearer {api_key}',
     }
 )
-
-
 
 
 def get_tournaments(do_update=True):
